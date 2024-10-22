@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #131128;
+}
+header{
+    background-image: url(images/crikto.background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    position: fixed;
+    
+}
+nav:hover{
+    background-color: #322871;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    padding:  15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    
+}
+.join-btn{
+    margin-right: 150px;
+    background-color: #5B2ED9;
+    padding: 15px 30px;
+    cursor:pointer;
+    transition-timing-function: ease-in-out;
+    transform: scalex(1);
+}
+.join-btn:hover{
+    transform: scale(0.2s);
+    background-color: white;
+    color:black;
+    
+}
+.crypto-btn{
+    background-color: #5B2ED9;
+    padding: 15px 30px;
+    transform: scale(1.2s);
+    cursor:pointer;
+}
+.crypto-btn:hover{
+     transform: scale(0.2s);
+    cursor: pointer;
+    background-color: white;
+    color:black;
+    transition: 0.3s ease-in;
+}
+nav ul li a:hover{
+     transform: scale(0.2s);
+    cursor: pointer;
+    background-color: #5B2ED9;
+    transition: 0.3s ease-in;
+}
+.logo{
+    margin-left: 120px;
+}
+       
+
+/* nav ----------------------------------------------------------*/
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    padding-top: 80px;
+}
+.left{
+    margin-left: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.left h1{
+    font-weight: 700;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    font-size:70px;
+}
+.home{
+    display: flex;
+    font-size: larger;
+    color: white;
+    margin-top:20px ;
+    
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+.home p{
+    margin-right: 20px;
+}
+/* plans-------------------------------------------------- */
+.plans{
+    display: flex;
+    margin: 50px 60px;
+    height: 100vh;
+    
+}
+.plans1{
+    border-radius: 25px;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    padding: 30px;
+    background-color: #25204d;
+    font-size: 20px;
+    height: fit-content;                                      
+}
+.plans1 h1{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #5B2ED9;
+    width: fit-content;
+    border-radius: 30px;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+    
+}
+.plans1 h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.plans1 h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    
+}
+.plans1 p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(199, 199, 199);
+}
+.plans1 li{
+    list-style-type: disc;
+    padding-top: 20px;
+    color: rgb(199, 199, 199);
+}
+.plans1 li::marker{
+    color: #3639E4;
+}
+.plans li a{
+    padding: 10px;
+    background-color: #5B2ED9;
+}
+
+/* pricing------------------------------------------ */
+
+.pricing1{
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    color: white; 
+    margin-top: 10%;
+    padding-bottom: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    
+}
+.pricing1 p{
+    margin: 20px;
+    padding: 15px;
+    font-weight: 100;
+    font-size:18px;
+    color: rgb(199, 199, 199);
+    
+}
+
+/* charts------------------------------------------- */
+
+.charts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+}
+.charts1 {
+    padding: 10px;
+       border: 1px solid rgba(255, 255, 255, 0.2);
+       border-radius: 5px;
+       padding-top: 30px;
+       margin-right: 24px;
+       padding-bottom: 20px;
+       color: white;
+       transition: 0.3s;
+       
+    }
+.charts1:hover{
+    border: 1px solid #5B2ED9;
+}
+.charts1 h1 {
+    margin-top: 30px;
+    font-size:16px;
+    padding-left: 50px;
+       padding-right: 50px;
+       
+       
+    }
+ .charts1 img{
+     border-radius: 5px;
+    }
+    
+
+
+    
